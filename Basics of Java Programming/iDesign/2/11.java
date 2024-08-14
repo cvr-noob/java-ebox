@@ -8,5 +8,6 @@ public class Main {
         System.out.println("Enter the second ASCII value");
         int b = scan.nextInt();
         System.out.println(a+b);
+        scan.close();
     }
 }
